@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Notebook and model caches
+.cache/
+.huggingface/
+
+# Large local data and generated artifacts
+embeddings/*.pt
+cosine_scores*.npy
+furniture_image*.png
+generated_preview*.png
+.gradio/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
